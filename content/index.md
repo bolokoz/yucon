@@ -1,69 +1,56 @@
 ---
 seo:
-  title: Nuxt Docs Template
-  description: Nuxt UI Pro is a collection of premium Vue components built on top
-    of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+  title: Boloko blog
+  description: Focus on interactive engineering, web dev. Personal portfolio notes and blog.  
 ---
 
 ::u-page-hero
 ---
 orientation: horizontal
 ---
-  :::prose-pre
-  ---
-  code: npx nuxi init -t github:nuxt-ui-pro/docs
-  filename: Terminal
-  ---
-  ```bash
-  npx nuxi init -t github:nuxt-ui-pro/docs
-  ```
-  :::
+![Nuxt Social Image](https://nuxt.com/new-social.jpg)
 
 #title
-Build your docs with Nuxt UI Pro
+Bolokozord
 
 #description
-Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive applications in minutes.
+Focus on interactive engineering, web dev. Personal portfolio notes and blog
 
 #links
   :::u-button
   ---
   size: xl
-  to: /getting-started
+  to: /portfolio
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Portfolio
   :::
 
   :::u-button
   ---
-  color: neutral
+  color: secondary
   icon: i-simple-icons-github
   size: xl
-  target: _blank
-  to: https://github.com/nuxt-ui-pro/docs
+  to: /blog
   variant: subtle
   ---
-  Use this template
+  Blog
+  :::
+
+  :::u-button
+  ---
+  color: warning
+  icon: i-simple-icons-square
+  size: xl
+  to: /interactives
+  ---
+  web apps
   :::
 ::
 
 ::u-page-section
 #title
-All-in-one documentation template
-
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: lg
-  target: _blank
-  to: https://ui.nuxt.com/getting-started/installation/pro/nuxt
-  trailingIcon: i-lucide-arrow-right
-  variant: subtle
-  ---
-  Discover Nuxt UI Pro v3
-  :::
+My favorites
 
 #features
   :::u-page-feature
@@ -71,9 +58,10 @@ All-in-one documentation template
   icon: i-simple-icons-nuxt
   target: _blank
   to: https://nuxt.com
+  variant: outline
   ---
   #title
-  Nuxt 3
+  app 1
 
   #description
   Powered by Nuxt 3 for optimal performances and SEO.
@@ -112,7 +100,7 @@ All-in-one documentation template
   to: https://www.typescriptlang.org
   ---
   #title
-  TypeScript
+  Outro top
 
   #description
   A fully typed development experience.
@@ -145,25 +133,3 @@ All-in-one documentation template
   :::
 ::
 
-::u-page-section
-  :::u-page-c-t-a
-  ---
-  links:
-    - label: Buy now
-      to: https://ui.nuxt.com/pro/purchase
-      target: _blank
-      icon: i-lucide-shopping-cart
-      color: neutral
-    - label: License
-      to: https://ui.nuxt.com/getting-started/license
-      trailingIcon: i-lucide-circle-help
-      target: _blank
-      color: neutral
-      variant: subtle
-  description: Nuxt UI Pro is free in development, but you need a license to use
-    it in production.
-  title: Start with Nuxt UI Pro today!
-  variant: subtle
-  ---
-  :::
-::
