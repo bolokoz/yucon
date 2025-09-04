@@ -9,17 +9,10 @@ export default defineContentConfig({
     docs: defineCollection({
       type: 'page',
       source: {
-        include: '**',
+        repository: 'https://github.com/bolokoz/yucon',
+        include: 'content/**',
         exclude: ['index.md']
-      },
-      schema: z.object({
-        links: z.array(z.object({
-          label: z.string(),
-          icon: z.string(),
-          to: z.string(),
-          target: z.string().optional()
-        })).optional()
-      })
+      }
     })
   }
 })
