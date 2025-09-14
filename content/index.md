@@ -28,6 +28,16 @@ Focus on interactive engineering, web dev. Personal portfolio notes and blog
 
   :::u-button
   ---
+  color: warning
+  icon: i-simple-icons-square
+  size: xl
+  to: /interactives
+  ---
+  web apps
+  :::
+
+  :::u-button
+  ---
   color: secondary
   icon: i-simple-icons-github
   size: xl
@@ -37,15 +47,7 @@ Focus on interactive engineering, web dev. Personal portfolio notes and blog
   Blog
   :::
 
-  :::u-button
-  ---
-  color: warning
-  icon: i-simple-icons-square
-  size: xl
-  to: /interactives
-  ---
-  web apps
-  :::
+
 ::
 
 ::u-page-section
