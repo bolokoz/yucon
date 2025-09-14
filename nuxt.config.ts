@@ -16,6 +16,14 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   content: {
+    preview: {
+      api: 'https://api.nuxt.studio',
+      gitInfo: {
+        name: 'yurio',
+        owner: 'bolokoz',
+        url: 'Your GitHub repository URL'
+      }
+    },
     build: {
       markdown: {
         toc: {

@@ -31,10 +31,10 @@ Focus on interactive engineering, web dev. Personal portfolio notes and blog
   color: secondary
   icon: i-simple-icons-github
   size: xl
-  to: /blog
+  to: /posts
   variant: subtle
   ---
-  Blog
+  Posts
   :::
 
   :::u-button

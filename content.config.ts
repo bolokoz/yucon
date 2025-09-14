@@ -9,9 +9,9 @@ export default defineContentConfig({
     docs: defineCollection({
       type: 'page',
       source: {
-        repository: 'https://github.com/bolokoz/yucon',
+        repository: 'https://github.com/bolokoz/yurio',
         include: 'content/**',
-        exclude: ['index.md']
+        exclude: ['index.md', '/README.md', '**/templates/', '**/.obsidian/']
       }
     })
   }
