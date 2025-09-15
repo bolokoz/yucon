@@ -10,12 +10,13 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
       <template #left>
         <UPageAside>
           <UContentNavigation
+            :default-open="true"
             highlight
             :navigation="navigation"
+            variant="pill"
           />
         </UPageAside>
       </template>
-
       <slot />
     </UPage>
   </UContainer>

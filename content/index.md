@@ -31,9 +31,16 @@ Focus on interactive engineering, web dev. Personal portfolio notes and blog
   color: warning
   icon: i-simple-icons-square
   size: xl
+<<<<<<< HEAD
   to: /interactives
   ---
   web apps
+=======
+  to: /posts
+  variant: subtle
+  ---
+  Posts
+>>>>>>> remoterepo
   :::
 
   :::u-button

@@ -1,4 +1,4 @@
-import { defineContentConfig, defineCollection, z } from '@nuxt/content'
+import { defineContentConfig, defineCollection } from '@nuxt/content'
 
 export default defineContentConfig({
   collections: {
@@ -9,17 +9,10 @@ export default defineContentConfig({
     docs: defineCollection({
       type: 'page',
       source: {
-        include: '**',
-        exclude: ['index.md']
-      },
-      schema: z.object({
-        links: z.array(z.object({
-          label: z.string(),
-          icon: z.string(),
-          to: z.string(),
-          target: z.string().optional()
-        })).optional()
-      })
+        repository: 'https://github.com/bolokoz/yurio',
+        include: 'content/**',
+        exclude: ['index.md', '**/README.md', '**/templates/', '**/.obsidian/', '**/parmegianologo/**', '**/projects/']
+      }
     })
   }
 })
