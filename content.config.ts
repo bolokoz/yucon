@@ -11,7 +11,7 @@ export default defineContentConfig({
       source: {
         repository: 'https://github.com/bolokoz/yurio',
         include: 'content/**',
-        exclude: ['index.md', '/README.md', '**/templates/', '**/.obsidian/']
+        exclude: ['index.md', '**/README.md', '**/templates/', '**/.obsidian/', '**/parmegianologo/**', '**/projects/']
       }
     })
   }
